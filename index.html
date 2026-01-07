@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louis Science - 理科の解説サイト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Louis Science</h1>
+            <p class="subtitle">理科の解説サイト</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">ホーム</a></li>
+                <li><a href="#physics">物理</a></li>
+                <li><a href="#chemistry">化学</a></li>
+                <li><a href="#biology">生物</a></li>
+                <li><a href="#about">このサイトについて</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="home" class="content-section active">
+            <h2>ようこそ</h2>
+            <p>このサイトは理科の解説を行うウェブサイトです。現在は高校物理を中心に解説を提供しています。</p>
+            
+            <div class="cards">
+                <div class="card">
+                    <h3>📐 物理</h3>
+                    <p>力学、電磁気学、熱力学、波動など、高校物理の基礎から応用まで詳しく解説します。</p>
+                    <a href="#physics" class="btn">物理を学ぶ</a>
+                </div>
+                <div class="card">
+                    <h3>🧪 化学</h3>
+                    <p>準備中です。化学の解説を追加予定です。</p>
+                    <a href="#chemistry" class="btn btn-disabled">準備中</a>
+                </div>
+                <div class="card">
+                    <h3>🌱 生物</h3>
+                    <p>準備中です。生物の解説を追加予定です。</p>
+                    <a href="#biology" class="btn btn-disabled">準備中</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="physics" class="content-section">
+            <h2>物理 (Physics)</h2>
+            <p>高校物理の主要なトピックについて解説します。</p>
+            
+            <div class="topic-list">
+                <div class="topic-item">
+                    <h3>力学 (Mechanics)</h3>
+                    <ul>
+                        <li>運動の法則 - ニュートンの三法則</li>
+                        <li>等加速度運動</li>
+                        <li>放物運動</li>
+                        <li>円運動</li>
+                        <li>単振動</li>
+                        <li>運動量と力積</li>
+                        <li>エネルギー保存則</li>
+                    </ul>
+                    <div class="example-box">
+                        <h4>例題：自由落下</h4>
+                        <p>物体を高さ h から静かに落下させたとき、地面に達するまでの時間 t と速度 v を求めよ。</p>
+                        <div class="solution">
+                            <p><strong>解答：</strong></p>
+                            <p>重力加速度を g とすると、</p>
+                            <p class="formula">h = (1/2)gt²</p>
+                            <p>より、時間 t は</p>
+                            <p class="formula">t = √(2h/g)</p>
+                            <p>速度 v は</p>
+                            <p class="formula">v = gt = √(2gh)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="topic-item">
+                    <h3>電磁気学 (Electromagnetism)</h3>
+                    <ul>
+                        <li>クーロンの法則</li>
+                        <li>電場と電位</li>
+                        <li>コンデンサー</li>
+                        <li>オームの法則と電気回路</li>
+                        <li>磁場と電流</li>
+                        <li>電磁誘導</li>
+                        <li>交流回路</li>
+                    </ul>
+                </div>
+
+                <div class="topic-item">
+                    <h3>熱力学 (Thermodynamics)</h3>
+                    <ul>
+                        <li>熱と温度</li>
+                        <li>気体の状態方程式</li>
+                        <li>熱力学第一法則</li>
+                        <li>熱機関と熱効率</li>
+                    </ul>
+                </div>
+
+                <div class="topic-item">
+                    <h3>波動 (Waves)</h3>
+                    <ul>
+                        <li>波の性質</li>
+                        <li>音波</li>
+                        <li>光波</li>
+                        <li>干渉と回折</li>
+                        <li>ドップラー効果</li>
+                    </ul>
+                </div>
+
+                <div class="topic-item">
+                    <h3>原子物理 (Atomic Physics)</h3>
+                    <ul>
+                        <li>光電効果</li>
+                        <li>原子の構造</li>
+                        <li>放射線</li>
+                        <li>核反応</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="chemistry" class="content-section">
+            <h2>化学 (Chemistry)</h2>
+            <p class="coming-soon">準備中です。近日公開予定です。</p>
+        </section>
+
+        <section id="biology" class="content-section">
+            <h2>生物 (Biology)</h2>
+            <p class="coming-soon">準備中です。近日公開予定です。</p>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>このサイトについて</h2>
+            <p>Louis Scienceは、理科を分かりやすく解説することを目指したウェブサイトです。</p>
+            <p>現在は高校物理を中心に解説を提供しています。今後、化学や生物などの分野も追加していく予定です。</p>
+            <h3>学習のポイント</h3>
+            <ul>
+                <li>基礎からしっかり理解する</li>
+                <li>公式の意味を考える</li>
+                <li>例題を通じて実践的に学ぶ</li>
+                <li>図やイラストで視覚的に理解する</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Louis Science. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
