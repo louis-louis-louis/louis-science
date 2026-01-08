@@ -1,2 +1,2 @@
-# Louis-Science
+# louis-science
 理科の解説サイトにする予定です．しばらくは，高校物理を書きます．
